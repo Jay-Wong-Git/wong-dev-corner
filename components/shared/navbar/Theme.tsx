@@ -60,8 +60,8 @@ const Theme = () => {
               <Image
                 src={item.icon}
                 alt={item.value}
-                width={mode === "dark" ? 10 : 16}
-                height={mode === "dark" ? 10 : 16}
+                width={16}
+                height={16}
                 className={`${mode === item.value && "active-theme"}`}
               />
               <p
