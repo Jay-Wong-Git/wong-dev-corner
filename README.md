@@ -61,7 +61,7 @@ RAPID_API_KEY=
 RAPID_API_HOST
 ```
 
-### 5. Run on your local server
+### 4. Run on your local server
 
 ```bash
 npm run dev
