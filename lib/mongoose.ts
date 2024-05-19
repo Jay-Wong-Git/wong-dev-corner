@@ -16,12 +16,12 @@ export const connectToDatabase = async () => {
 
   try {
     await mongoose.connect(process.env.MONGODB_URL, {
-      dbName: "devflow",
+      dbName: "wong-dev-corner",
     });
 
     isConnected = true; // Set the connection status to true
     console.log("MongoDB is already connected");
   } catch (error) {
-    console.log("ongoDB connection failed", error);
+    console.log("MongoDB connection failed", error);
   }
 };
